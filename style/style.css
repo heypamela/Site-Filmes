@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+}
+
+header .menu{
+    background-color: #262626;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .menu .logo{
+    color: white;
+    align-content: space-between;
+    text-shadow: #333 1px 2px 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+header nav a{
+    text-shadow: #333 1px 2px 2px;
+    text-decoration: none;
+    color:white;
+    margin: 20px 40px;
+    align-items: center;
+}
+
+footer{
+    margin-top:20px;
+    width: inherit;
+    background-color: #262626;
+    color:white;
+    text-shadow: #333 1px 2px 3px;
+    font-size: 20px;
+    padding: 40px; 
+    text-align: center;
+}
+
+
+
+
+
+/*Filme Principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("https://image.tmdb.org/t/p/w500/h1coWIfm3mQPS5wLo3odWUzx97u.jpg");
+    height: 281px;
+    width: 500px;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom:50px;
+}
+
+.filme-principal .titulo-filme{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 10px 20px;
+    font-size:14px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+.botao i{
+    margin-right:7px;
+}
+
+
+
+
+
+/*Carrosel*/
+.carousel{
+    height: 290px;
+    width: 90%;
+    position: relative;
+    background-color: #262626;
+    border-radius: 4px;
+}
+
+.carousel .setaEsquerda, .carousel .setaDireita{
+    color: black;
+    font-weight: bold;
+    height: 100%;
+    width: 44px;
+    line-height: 240px;
+    font-size: 25px;
+    text-align: center;
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0;
+    z-index: 2;
+}
+
+.carousel .setaEsquerda{
+    position: absolute;
+    left: -50px;
+}
+
+.carousel .setaDireita{
+    position: absolute;
+    right: -50px;
+}
+
+.carousel-box{
+    height: 280px;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 7px !important;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.carousel-box img{
+    min-width: 145px;
+    max-width: 145px;
+    height: 198px;
+    background-size: cover;
+    background-color: blueviolet;
+    margin: 5px 8px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.carousel-box img:hover{
+    transform: scale(1.15);
+    z-index: 5;
+}
+
+.carousel-box h4{
+    font-size: 14px;
+    margin-top: 7px;
+    color: white
+}
+
+.carousel-box h2{
+    background-color: yellow;
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    margin: auto;
+    font-size: 18px;
+}
+
+
+
+
+/*Formulário*/
+.sugestao{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+    justify-items: center;
+    height: 400px;
+    width: 850px;
+}
+.sugestao h2{
+    margin: 15px;
+    justify-items: center;
+}
+
+.sugestao .form p, .sugestao .form input, .sugestao .form button{
+    margin-top: 15px;
+}
+
+.sugestao input{
+    width:340px;
+}
+.sugestao .comentario{
+    width: 400px;
+    height: 100px;
+}
+
+
