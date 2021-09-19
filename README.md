@@ -20,12 +20,12 @@ O que foi feito:
 
 [x] Lista de filmes
 
-[ ] Tela de detalhes 
+[-] Tela de detalhes 
 
 
 
 TECNOLOGIAS:
-[x] Axios        [x] MySQL    
-[x] .env         [x] Express 
-[X] NodeJS       [x] bcryptjs
-[x] Bootstrap    [x] JWT(JSON Web Token)    
+[x] Axios                 [x] MySQL    
+[x] .env                  [x] Express 
+[X] NodeJS - (nodemon)    [x] bcryptjs
+[x] Bootstrap             [x] JWT(JSON Web Token)    
