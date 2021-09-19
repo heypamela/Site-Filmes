@@ -29,12 +29,3 @@ TECNOLOGIAS:
 [x] .env         [x] Express 
 [X] NodeJS       [x] bcryptjs
 [x] Bootstrap    [x] JWT(JSON Web Token)    
-
-
-
-
-
-
-
-
-# Site-Filmes
